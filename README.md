@@ -1,6 +1,34 @@
 # 👁️ Face Detection and Tracking with TensorFlow
 
-This project builds a face detection and tracking model using custom-labeled images and TensorFlow/Keras. It uses OpenCV for webcam input and labelme for annotation.
+This project demonstrates how to build a **real-time face detection and tracking system** using deep learning. It involves **custom dataset creation, annotation, augmentation, training**, and **deployment** using your webcam.
+
+### 📌 What This Project Does
+
+- Captures face images using your own webcam
+- Allows **manual labeling** with LabelMe (bounding boxes)
+- Trains a **deep learning model** using TensorFlow/Keras to detect faces
+- Performs **data augmentation** using Albumentations
+- Uses OpenCV to run real-time face detection on webcam feed
+- Saves the trained model for future use (`facetracker.h5`)
+
+---
+
+### 🎯 Key Features
+
+✅ Custom face dataset creation using your webcam  
+✅ Labeling workflow using LabelMe  
+✅ Train-test-validation splitting with auto label mapping  
+✅ Real-time video stream inference using OpenCV  
+✅ Lightweight model suitable for live webcam applications  
+
+---
+
+### 🛠️ Use Cases
+
+- **Educational purposes**: Learn end-to-end deep learning workflow  
+- **Prototyping**: Quickly test face tracking logic in Python  
+- **Augmented Reality (AR)**: Use bounding box outputs as inputs for overlays  
+- **Security Systems**: Detect human presence in real-time  
 
 ---
 
